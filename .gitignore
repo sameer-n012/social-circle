@@ -3,3 +3,11 @@
 .vs/
 *.iml
 target/
+.vscode/
+NiceAdmin/
+old-react/
+*/secrets/*
+*.jar
+*.class
+./secrets/*
+secrets/

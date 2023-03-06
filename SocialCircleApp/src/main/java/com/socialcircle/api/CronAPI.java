@@ -168,7 +168,8 @@ public class CronAPI {
 
     public static String getGptResponse(String notesString) throws UnirestException {
         String url = "https://api.openai.com/v1/completions";
-        String authorizationHeader = "Bearer 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";
+        String chatGPTAuthToken = ""; // TODO
+        String authorizationHeader = "Bearer " + chatGPTAuthToken;
 
         JSONObject requestBody = new JSONObject();
         requestBody.put("model", "text-davinci-003");
